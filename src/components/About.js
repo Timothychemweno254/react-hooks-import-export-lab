@@ -1,6 +1,8 @@
 import React from "react";
 
 function About() {
+  const image = "https://via.placeholder.com/215";  // Defined internally
+  
   return (
     <div id="about">
       <h2>About Me</h2>
@@ -9,3 +11,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
